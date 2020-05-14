@@ -1347,7 +1347,6 @@ void UpdateMusicStream(Music music)
             music.loopCount--;         // Decrease loop count
             PlayMusicStream(music);    // Play again
         }
-        else if (music.loopCount == 0) PlayMusicStream(music);
     }
     else
     {
